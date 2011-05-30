@@ -7,27 +7,7 @@ Version: 0.1
 Author: Mau
 Author URI: http://wphug.com/
 License: GPL2
-*/
-
-/*
-
-TODO:
-
-
-empty form shouldn't submit
-settings $sanitize_callback & settings error
-
-more test of adding to non existing taxonomy
-
-check permissions
-
-check intention
-
-add i18n
-
-
-*/
-	
+*/	
 
 	// add the class to WP
 	add_action( 'plugins_loaded', 'mau_network_terminator_init' );
