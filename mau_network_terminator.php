@@ -2,7 +2,7 @@
 /*
 Plugin Name: Network Terminator
 Plugin URI: http://wphug.com/plugins/network-terminator/
-Description: Simple plugin to bulk add terms to selected blogs in network.
+Description: Simple plugin to bulk add terms to taxonomies across the mutisite network.
 Version: 0.1
 Author: Mau
 Author URI: http://wphug.com/
@@ -14,10 +14,10 @@ License: GPL2
 TODO:
 
 
-empty form shouldnt submit
+empty form shouldn't submit
 settings $sanitize_callback & settings error
 
-test nonexist tax
+more test of adding to non existing taxonomy
 
 check permissions
 
