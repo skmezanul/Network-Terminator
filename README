@@ -1,0 +1,37 @@
+Network Terminator
+
+Simple WordPress plugin to bulk add terms to taxonomies across the mutisite network.
+
+Version: 0.0.1
+
+License: GPL2
+
+/*
+TODO:
+	test non-existing tax
+	add i18n
+	check intention
+	add 'undo' transient
+*/
+
+
+/*
+Known issues:
+
+	1. Adds terms to the custom taxonomy despite the fact that this taxonomy is not registered on the target site.
+	Error messagge about non-existing taxonomy is therefore never displayed.
+	If the taxonomy is registered later the terms are magicaly there. This could be a feature but as it is it's a bug.
+	Related: global $wp_taxonomies related functions such as taxonomy_exists() or get_taxonomies() seems to doesn't work 'remotely' after switch_to_blog(). WordPress bug? My bug?
+	 
+	2. Sometimes it doesn't display the correct blog names when running together with WPML plugin.
+	Shows current blog name instead. WPML plugin bug? Domain Mapping plugin bug? My bug?
+*/
+
+
+/*
+Future releases:
+	Undo button.
+	Ability to bulk delete terms from network.
+	Ajax check/overview of taxonomies/terms in the whole network.
+	Networkwide terms sync.
+*/
