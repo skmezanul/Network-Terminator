@@ -8,7 +8,6 @@ License: GPL2
 
 /*
 TODO:
-	test non-existing tax
 	add i18n
 	check intention
 	add 'undo' transient
@@ -18,7 +17,7 @@ TODO:
 /*
 Known issues:
 
-	1. Adds terms to the custom taxonomy despite the fact that this taxonomy is not registered on the target site.
+	1. It will add terms to the custom taxonomy despite the fact that this taxonomy is not registered on the target site.
 	Error messagge about non-existing taxonomy is therefore never displayed.
 	If the taxonomy is registered later the terms are magicaly there. This could be a feature but as it is it's a bug.
 	Related: global $wp_taxonomies related functions such as taxonomy_exists() or get_taxonomies() seems to doesn't work 'remotely' after switch_to_blog(). WordPress bug? My bug?
