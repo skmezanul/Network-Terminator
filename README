@@ -6,13 +6,10 @@ Version: 0.0.1
 
 License: GPL2
 
-/*
-TODO:
-	add i18n
-	check intention
-	add 'undo' transient
-*/
-
+- Alows to bulk add terms across network.
+- Works with custom taxonomies
+- Doesn't delete.
+- Doesn't sync.
 
 /*
 Known issues:
@@ -33,4 +30,12 @@ Future releases:
 	Ability to bulk delete terms from network.
 	Ajax check/overview of taxonomies/terms in the whole network.
 	Networkwide terms sync.
+*/
+
+
+/*
+TODO:
+	add i18n
+	check intention
+	add 'undo' transient
 */
