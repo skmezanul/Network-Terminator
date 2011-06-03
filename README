@@ -6,14 +6,19 @@ Version: 0.0.1
 
 License: GPL2
 
-- Alows to bulk add terms across network.
+Description:
+- Alows to bulk add terms across network
+- You can select what sites will be affected
 - Works with custom taxonomies
-- Doesn't delete.
-- Doesn't sync.
+- Works from any site in the network
+- Features a 'test run' button to preview the results before execution
 
-/*
+- Will not register your custom taxonomies network-wide (it's up to you!)
+- Doesn't delete terms (planned soon)
+- Doesn't sync (planned later)
+
+
 Known issues:
-
 	1. It will add terms to the custom taxonomy despite the fact that this taxonomy is not registered on the target site.
 	Error messagge about non-existing taxonomy is therefore never displayed.
 	If the taxonomy is registered later the terms are magicaly there. This could be a feature but as it is it's a bug.
@@ -21,21 +26,10 @@ Known issues:
 	 
 	2. Sometimes it doesn't display the correct blog names when running together with WPML plugin.
 	Shows current blog name instead. WPML plugin bug? Domain Mapping plugin bug? My bug?
-*/
 
 
-/*
 Future releases:
 	Undo button.
 	Ability to bulk delete terms from network.
 	Ajax check/overview of taxonomies/terms in the whole network.
 	Networkwide terms sync.
-*/
-
-
-/*
-TODO:
-	add i18n
-	check intention
-	add 'undo' transient
-*/
